@@ -1,0 +1,201 @@
+html, body {
+    height: 100%;
+    margin: 0; 
+    padding: 0; 
+    font-family: 'Playfair Display', serif;
+    background-color: #f4f4f4;
+    background-image: url('C:/Users/anjal/Downloads/pexels-ella-olsson-572949-1640777.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    background-attachment: scroll;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #874cafe4;
+    color: rgb(255, 255, 255);
+    padding: 10px 0;
+}
+
+header h1 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+    font-size: 3.5em;
+    font-weight: 500;
+}
+
+nav ul {
+    font-family: 'Rubik', sans-serif;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 75px;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+nav ul li {
+    display: inline;
+    background-color: #ffffff48;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #fbfbfba7;
+    border-radius: 10px;
+}
+
+.recipe {
+    max-width: 800px;
+}
+
+main {
+    flex: 1; 
+    max-width: 100%;
+    margin: auto;
+}
+
+
+section {
+    margin: 30px;
+    padding: 10px;
+}
+
+
+div exercise{
+    margin:10px;
+}
+
+h2 {
+    color:#874caf;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.recipe {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.recipe h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.recipe p {
+    margin-bottom: 10px;
+}
+
+.recipe a {
+    color: #874caf;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.recipe a:hover {
+    color: #874caf;
+}
+
+.recipe button {
+    background-color: #874caf;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.recipe button:hover {
+    background-color: #874caf;
+}
+
+.recipe-details ul, .recipe-details ol {
+    margin-left: 20px;
+    background-color: #ffffffcd;
+}
+
+.recipe-details h4 {
+    margin-top: 20px;
+    background-color: #ffffffcd;
+}
+
+.recipe-details ul {
+    list-style-type: disc;
+}
+
+.recipe-details ol {
+    list-style-type: decimal;
+}
+
+footer {
+    background-color: #874caf;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+.intro {
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 0; 
+    padding: 0; 
+    max-width: 800px;
+}
+
+.intro-text {
+    background-color: rgba(255, 255, 255, 0.875);
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.intro h2 {
+    font-size: 2.05em;
+    margin-bottom: 50px;
+    text-align: center;
+    font-weight: bolder;
+    word-spacing: 5px;
+    background-color: rgba(255, 255, 255, 0.875)
+}
+
+.intro p {
+    font-size: 1.05em;
+    text-align: center;
+    color: black;
+    font-style: normal;
+    font-weight: lighter;
+    font-stretch:extra-expanded;
+    word-spacing: 10px;
+}
+
